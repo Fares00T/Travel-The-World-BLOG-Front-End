@@ -2,7 +2,7 @@ import "./Post.css";
 import { Link } from "react-router-dom";
 
 const Post = ({ post }) => {
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://travel-the-world-blog.herokuapp.com/images/";
   return (
     <div className='post'>
       {post.photo && <img className='postImg' src={PF + post.photo} alt='' />}
